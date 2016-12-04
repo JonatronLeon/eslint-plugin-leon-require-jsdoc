@@ -26,7 +26,19 @@ Add `leon-require-jsdoc` to the plugins section of your `.eslintrc` configuratio
 {
     "plugins": [
         "leon-require-jsdoc"
-    ]
+    ],
+    "rules": {
+        //...
+        "leon-require-jsdoc/leon-require-jsdoc": ["error", {
+            "require": {
+                "FunctionDeclaration": true,
+                "MethodDefinition": true,
+                "ClassDeclaration": true,
+                "ArrowFunctionExpression": true
+            }
+        }]
+        //...
+    }
 }
 ```
 
