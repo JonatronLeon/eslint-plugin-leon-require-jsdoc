@@ -1,26 +1,22 @@
 {
   "name": "eslint-plugin-leon-require-jsdoc",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An update to the require-jsdoc that catches more function expressions and declarations.",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Leon",
+  "repository": {
+    "url": "https://github.com/JonatronLeon/eslint-plugin-leon-require-jsdoc"
+  },
+  "author": "Jonathan S. Collins Leon",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha tests --recursive"
-  },
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
   "devDependencies": {
-    "eslint": "~2.6.0",
-    "mocha": "^2.4.5"
+    "eslint": "~2.6.0"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
